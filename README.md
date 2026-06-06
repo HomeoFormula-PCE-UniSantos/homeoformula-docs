@@ -33,7 +33,7 @@ Aqui você encontrará os seguintes documentos essenciais para a compreensão do
 
 ## 👥 Equipe de Desenvolvimento
 
-* 
+* Arthur Batista Correa Alves
 * Guilherme Augusto Boquimpani
 * 
 * 
