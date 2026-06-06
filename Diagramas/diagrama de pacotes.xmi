@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_XQM-4FaMEfGRFLjXgvViuQ" name="diagrama de pacotes">
+  <eAnnotations xmi:id="_XQM-4VaMEfGRFLjXgvViuQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_XQM-4laMEfGRFLjXgvViuQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_XQM-41aMEfGRFLjXgvViuQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XQM-5FaMEfGRFLjXgvViuQ" name="Package"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XQM-5VaMEfGRFLjXgvViuQ" name="Domínio">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XQM-5laMEfGRFLjXgvViuQ" name="Entidades_Core" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XQM-51aMEfGRFLjXgvViuQ" name="Regras_De_Negócio" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XQM-6FaMEfGRFLjXgvViuQ" name="Portas">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XQM-6VaMEfGRFLjXgvViuQ" name="Inbound_CasosDeUso" isAbstract="true">
+      <generalization xmi:id="_XQM-6laMEfGRFLjXgvViuQ" general="_XQM-51aMEfGRFLjXgvViuQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XQM-61aMEfGRFLjXgvViuQ" name="Outbound_Repositórios" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XQM-7FaMEfGRFLjXgvViuQ" name="Adaptadores">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XQM-7VaMEfGRFLjXgvViuQ" name="Controllers_NestJS" clientDependency="_XQM-7laMEfGRFLjXgvViuQ" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_XQM-7laMEfGRFLjXgvViuQ" name="" supplier="_XQM-6VaMEfGRFLjXgvViuQ" client="_XQM-7VaMEfGRFLjXgvViuQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XQM-71aMEfGRFLjXgvViuQ" name="Adapter_Prisma_Postgres" isAbstract="true">
+      <generalization xmi:id="_XQM-8FaMEfGRFLjXgvViuQ" general="_XQM-61aMEfGRFLjXgvViuQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XQM-8VaMEfGRFLjXgvViuQ" name="Adapter_MinIO_S3" isAbstract="true">
+      <generalization xmi:id="_XQM-8laMEfGRFLjXgvViuQ" general="_XQM-61aMEfGRFLjXgvViuQ"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
