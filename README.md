@@ -1,10 +1,10 @@
-# 📚 HomeoFormula - Documentação e Arquitetura
+# HomeoFormula - Documentação e Arquitetura
 
 Bem-vindo ao repositório central de documentação do projeto **HomeoFormula**, desenvolvido para a disciplina de Projeto de Extensão Curricular (PCE) do curso de Ciência da Computação da **Universidade Católica de Santos (UniSantos)**.
 
 ---
 
-## 🎯 Objetivo deste Repositório
+## Objetivo deste Repositório
 
 Seguindo as melhores práticas de Engenharia de Software, decidimos separar estritamente a documentação da base de código. Este repositório é dedicado exclusivamente ao armazenamento de:
 
@@ -14,12 +14,12 @@ Seguindo as melhores práticas de Engenharia de Software, decidimos separar estr
 * Atas de reunião e evidências de validação com o *Product Owner*.
 * Relatórios formais das entregas do projeto.
 
-> 💻 **Procurando o código-fonte?** 
+>  **Procurando o código-fonte?** 
 > O código da aplicação (Frontend em React e Backend em NestJS) está localizado no repositório da aplicação: [homeoformula-app](https://github.com/HomeoFormula-PCE-UniSantos/homeoformula-app).
 
 ---
 
-## 📁 Estrutura de Arquivos e Artefatos
+## Estrutura de Arquivos e Artefatos
 
 Aqui você encontrará os seguintes documentos essenciais para a compreensão do projeto:
 
@@ -31,12 +31,12 @@ Aqui você encontrará os seguintes documentos essenciais para a compreensão do
 
 ---
 
-## 👥 Equipe de Desenvolvimento
+## Equipe de Desenvolvimento
 
-* 
-* Guilherme Augusto Boquimpani
-* 
-* 
+- **Arthur Batista Correa Alves**
+- **Felipe Francisco Ferreira de Lima**
+- **Guilherme Augusto Boquimpani**
+- **Milton Silva de Jesus**
 
 **Instituição:** Centro de Ciências Exatas, Arquitetura e Engenharias (UniSantos)  
 **Ano:** 2026 | **Semestre:** 7º
